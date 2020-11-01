@@ -1,0 +1,8 @@
+hosts file
+
+/etc/ansible/hosts
+/etc/ansible/ansible.cfg
+
+ad-hoc commnads
+ansible all -m command -a "uptime"
+ansible all -m ping
